@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header>
+        <p>pokemon</p>
+        <ul>
+            <a href="#">home</a>
+            <a href="#">contac</a>
+        </ul>
+    </header>
+    <main>
+        <form id="controls">
+            <input type="text" id="pokemon-input" value="" placeholder="Nombre de pokemon">
+            <div class="btn" onclick="getPokemon()">
+              Obtener Pokemon
+            </div>
+        </form>
+        <div id="pokemon">
+            <h3 id="pokemon-name"></h3>
+            <img id="pokemon-image" src="" alt="">
+            <p id="pokemon-abilities"></p>
+        </div>
+        <script src="./app.js"></script>
+    </main>
+    <footer>
+        <div class="redes">
+            <img src="./img/discord-brands.svg" alt="">
+            <img src="./img/facebook-brands.svg" alt="">
+            <img src="./img/github-brands.svg" alt="">
+
+        </div>
+    </footer>
+</body>
+</html>
